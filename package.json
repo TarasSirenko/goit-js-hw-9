@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://tarassirenko.github.io/goit-js-hw-10-food-service/",
   "scripts": {
-    "start": "parcel src/*.html --no-source-maps --open",
-    "build": "parcel build src/*.html --no-source-maps --public-url /goit-js-hw-10-food-service/"
+    "start": "parcel src/*.html  --no-source-maps --open",
+    "build": "parcel build src/index.html --no-source-maps --public-url /goit-js-hw-10-food-service/ --no-minify"
   },
   "repository": {
     "type": "git",
